@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV8871DDA_2
+D Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, HTSOP-8
+K H-bridge driver motor current limit
+F http://www.ti.com/lit/ds/symlink/drv8871.pdf
+$ENDCMP
+#
+$CMP LM74610-Q1
+D Zero IQ Reverse Polarity Protection Smart Diode Controller
+K Smart Diode
+F http://www.ti.com/lit/ds/symlink/lm74610-q1.pdf
+$ENDCMP
+#
+$CMP MC74VHCT126A
+D QUAD IC BUF NON-INVERT 5.5V 14TSSOP
+K Buffer 3State
+F https://www.onsemi.com/pub/Collateral/MC74VHCT126A-D.PDF
+$ENDCMP
+#
+$CMP PowerEdge12
+D CONN EDGE DUAL MALE 12POS 0.508 MOLEX EXT_POWEREDGE
+K EDGE CONN POWEREDGE MOLEX
+F https://www.molex.com/pdm_docs/sd/459120001_sd.pdf
+$ENDCMP
+#
+$CMP TE_PCFN-112D2M-000
+D TE PCH relay RELAY GEN PURPOSE SPST 25A 12V
+K Miniature Single Pole Relay
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1461193&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+#End Doc Library

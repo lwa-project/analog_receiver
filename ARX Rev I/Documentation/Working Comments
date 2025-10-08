@@ -1,0 +1,17 @@
+- Updated footprint for MCL attenuators (LWA RF:DG983-2) to include thermal vias connected to ground as specified in "98PL189.DWG".
+    These vias, and also those associated with the "Gali" parts, are directly connected (solid, no thermal reliefs)
+
+- To help with debugging and servicing, vias are located out from underneath parts. Traces connected to vias are extended outside the part.
+
+- Rotate C151 in 83.7 MHz
+- Remove GDTs
+- UPdate PE42450 footprint to include vias
+- Change SPI connectors to Whit's part with locking arrangement
+- Silkscreen position are to accomdae more digits on higher values
+- Reworked SPI Connectors (now MODII)
+OK  - ???  Replace J5 (RS485)
+
+Q:  Are filled vias in thermal pads really necessary?
+
+
+- Grounding pads for shield

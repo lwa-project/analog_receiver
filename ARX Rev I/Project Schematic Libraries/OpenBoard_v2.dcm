@@ -1,0 +1,104 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 23LC1024
+D SRAM Memory IC 1Mb (128K x 8) SPI - Quad I/O 20MHz 8-SOIC
+K SPI SRAM SOIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005142C.pdf
+$ENDCMP
+#
+$CMP 74LVC8T245
+D 8-Bit Bus Transceiver With Voltage Translation and 3-State Outputs
+K Tranceiver Voltage Translator
+F http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf
+$ENDCMP
+#
+$CMP BRIDGE-SCH
+D Schottky.4 Bridge voltage current [footprint]
+$ENDCMP
+#
+$CMP ICSP
+D Microchip ICSP Connector
+K ICSP Microchip Debug
+$ENDCMP
+#
+$CMP ICSP_RJ11
+D Microchip ICSP Connector RJ11
+K ICSP Microchip Debug RJ11 RealICE
+$ENDCMP
+#
+$CMP LM340-5.0
+D Positive Linear Regulator, Fixed Output 5V, SOT-223
+K Voltage Regulator Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP MAX1490BEPG+
+D 1/1 Transceiver Full RS422, RS485 24-PDIP 
+K RS422 TRANSCEIVER
+F https://pdfserv.maximintegrated.com/en/ds/MAX1480A-MAX1490B.pdf
+$ENDCMP
+#
+$CMP MC33269DT3.3
+D Low-drop Voltage Regulator, Io up to 800mA, Fixed Vo 3.3V, DPAK.
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP M_PORT
+D 10 Pin MikroElektronika PIC Pin Header Port
+K MikroElektronika PIC MPU Header
+$ENDCMP
+#
+$CMP NRF24L01_Breakout
+D Ultra low power 2.4GHz RF Transceiver, Carrier PCB
+K Low Power RF Transciever breakout carrier
+F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
+$ENDCMP
+#
+$CMP PIC18F87K22
+D PIC18F87K22, 128k Flash, 4K SRAM,  ADC 24 Channel x 12 bits, TQFP80
+K Flash Based 8-Bit Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39960d.pdf
+$ENDCMP
+#
+$CMP SEL_3
+D Selection Jumper, 3 way
+K selection, jumper, connector
+F ~
+$ENDCMP
+#
+$CMP SW_SPDT_CK
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+$ENDCMP
+#
+$CMP TFT_2.8
+D 2.8 Inch ILI9341 Based Display with TSC2046 Touch Conrtroller
+K TFT DISPLAY ILI9341 TSC2046
+$ENDCMP
+#
+$CMP VCC
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC_3.3V
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC_5V
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC_BATT
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC_SYS
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC_USB
+K POWER, PWR
+$ENDCMP
+#
+#End Doc Library

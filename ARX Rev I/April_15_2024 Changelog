@@ -1,0 +1,14 @@
+- Edge cut line thickness adjusted to 1.5 mm as recommended by JLCPCB
+- Board length set to 6.750 inches.  Width Unchanged at 10.950 inches
+- 50 Ohm impedance test strip added with DNI (Do not install) end launch SMA connectors
+- 50 Ohm test strip labled to inform contract manufacturers and board houses that we will be checking impedance
+- Diagnostic LEDs on first cascade SPI expander (U31) labeled to reflect actual function in circuit (G0_1, G0_2, BD_ID...).
+- Move "SPI Cascade" Block to right to accomodate silkscreen text
+- Move temperature sensor "TEMP3" to more isolated position
+- Silkscreen comment block enlarged and moved to avoid obstruction with cable bundle
+- Diameter of small wire-tie holes associated with MMCX connectors to 200 mils
+- Decrease center-to-center spacing of wire-tie holes associated with MMCX connectors to 500 mils to provide more edge clearance
+- Large wire-tie holes reduced to 248 mils (~6.2992 mm) to accommodate JLCPCB capability of 6.3 mm maximum hole size
+
+**  Note end launch SMA connectors designed for 62 mils (1.57 mm) board thickness, actual thickness 60.6 mils (1.54 mm).
+    No tolerance specification is given for recommended board thickness, but specified connector (Molex, 0734151471) will likely work.

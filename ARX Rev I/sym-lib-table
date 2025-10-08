@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LWA_RF")(type "KiCad")(uri "${KIPRJMOD}/Project Schematic Libraries/LWA_RF.kicad_sym")(options "")(descr ""))
+  (lib (name "Solenoid_Array")(type "Legacy")(uri "${KIPRJMOD}/Project Schematic Libraries/Solenoid_Array.lib")(options "")(descr ""))
+  (lib (name "2023-09-25_03-25-11")(type "KiCad")(uri "${KIPRJMOD}/Project Schematic Libraries/ul_SN74LVC16244ADGGR/KiCADv6/2023-09-25_03-25-11.kicad_sym")(options "")(descr ""))
+  (lib (name "OpenBoard_v2")(type "Legacy")(uri "${KIPRJMOD}/Project Schematic Libraries/OpenBoard_v2.lib")(options "")(descr ""))
+)

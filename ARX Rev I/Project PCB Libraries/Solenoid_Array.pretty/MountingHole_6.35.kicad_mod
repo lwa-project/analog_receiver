@@ -1,0 +1,11 @@
+(module MountingHole_6.35 (layer F.Cu) (tedit 60FF28B4)
+  (descr "mounting hole 6.35mm plated")
+  (tags "mounting hole 6.35mm plated")
+  (fp_text reference REF** (at 0 -4.445) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value AntiRotationPin (at 0 -5.715) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 7.72 7.72) (drill 6.35) (layers *.Cu *.Mask))
+)

@@ -1,0 +1,221 @@
+(footprint "1008HT_Handsolder"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor Coilcraft HT1008 Handsolder")
+	(tags "Coilcraft Inductor HT1008 Handsolder")
+	(property "Reference" "REF**"
+		(at 0 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "3c8a8a8a-deb5-4cb1-a3ad-46e2f7614cc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1008CS_HS"
+		(at 0 2.159 0)
+		(layer "F.Fab")
+		(uuid "92ff83bc-f521-49c9-808b-371b6303abd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5dc8a42b-947d-462c-b596-29a83ab3c4ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85bd3dab-99b6-41f5-becf-dfdaef133a6b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9b58a80-eca3-4f43-959e-3235053381ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.159 -1.651)
+		(end -2.159 1.651)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "181767c3-3176-486d-b73d-97a0ec57f89d")
+	)
+	(fp_line
+		(start -2.159 -1.651)
+		(end 2.159 -1.651)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "466483f4-fc69-48fb-8c22-5c6ab98239f8")
+	)
+	(fp_line
+		(start -2.159 1.651)
+		(end 2.159 1.651)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69c5aab4-cdef-40a4-b596-316c84cfb6a4")
+	)
+	(fp_line
+		(start 2.159 -1.651)
+		(end 2.159 1.651)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac365ba6-e150-4ed5-88f4-0953f007c7c2")
+	)
+	(fp_line
+		(start -2 -1.524)
+		(end 2 -1.524)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6e1bced-3483-4926-9f3f-10197e4e50bc")
+	)
+	(fp_line
+		(start -2 1.524)
+		(end -2 -1.524)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6031cded-01a2-43cf-b9f6-de787d13e967")
+	)
+	(fp_line
+		(start 2 -1.524)
+		(end 2 1.524)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eecaa032-dead-40c0-aa12-143bf3cbf31f")
+	)
+	(fp_line
+		(start 2 1.524)
+		(end -2 1.524)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e473b539-dd33-4713-ba2f-d0fca4c2c61e")
+	)
+	(fp_line
+		(start -1.4605 -1.397)
+		(end -1.4605 1.397)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "279eef44-9e5f-4ee5-98c8-cd7bcd2cb7b5")
+	)
+	(fp_line
+		(start -1.4605 -1.397)
+		(end 1.4605 -1.397)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "202f4bb4-5f31-4949-b1d0-b78c3a77d597")
+	)
+	(fp_line
+		(start -1.4605 1.397)
+		(end 1.4605 1.397)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27f83a86-f754-4478-893f-30aa786837c2")
+	)
+	(fp_line
+		(start 1.4605 -1.397)
+		(end 1.4605 1.397)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "600c2b76-cc16-4aa5-bf5e-ed3ab0394b48")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "006726e5-d5f0-4eca-9442-73d8722fb0db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.243 0)
+		(size 1.216 2.54)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c55bc341-3880-4daa-85be-cf8d41fb6462")
+	)
+	(pad "2" smd rect
+		(at 1.243 0)
+		(size 1.216 2.54)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c3952dff-7bd1-42be-8328-9bc6858d6807")
+	)
+	(model "${KIPRJMOD}/Project PCB Libraries/3D Models/Coilcraft-1008HT.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 90)
+		)
+	)
+)

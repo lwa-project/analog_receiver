@@ -1,0 +1,13 @@
+(module MSPI_Mech_Support (layer F.Cu) (tedit 60382BEE)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value MSPI_Mech_Support (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (model "${KIPRJMOD}/Project PCB Libraries/3D Models/PCB Support_02_16_21.step"
+    (at (xyz 0 0 0))
+    (scale (xyz 1000 1000 1000))
+    (rotate (xyz 0 0 0))
+  )
+)
